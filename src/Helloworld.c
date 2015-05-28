@@ -24,6 +24,7 @@ int main(void) {
 	double d_log = log(10);
 	double d_exp = exp(2);
 	double d_log2 = log(2);
+	double d_pow2_5 = pow(2,5);
 
 	printf("cal:cos(theta) = %lf\n",d_cos);
 	printf("cal:sin(pi) = %lf\n",d_sin);
@@ -31,6 +32,7 @@ int main(void) {
 	printf("cal:log(10) = %lf\n",d_log);
 	printf("cal:exp(2) = %lf\n",d_exp);
 	printf("cal:log(2) = %lf\n",d_log2);
+	printf("cal:pow(2,5) = %lf\n",d_pow2_5);
 
 	puts("Hello HiLinux!!!"); /* prints Hello World!!! */
 	return PROCESS_SUCCESS;
